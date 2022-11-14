@@ -19,7 +19,7 @@ public class filePow {
         int b = 3;
         int a = 2;
         String text = "b = " + b + "\na = " + a;
-        try (FileOutputStream fos = new FileOutputStream("intput.txt");
+        try (FileOutputStream fos = new FileOutputStream("input.txt");
                 PrintStream printStream = new PrintStream(fos)) {
             printStream.println(text);
         } catch (IOException ex) {
